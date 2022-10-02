@@ -82,7 +82,7 @@
 	position: relative;
 	width: 26%;
 	flex-shrink: 0;
-	
+	border: 3px solid #bd8fe8;
 }
 .cont-contents .course .course-cover p {
 	position: relative;
@@ -95,21 +95,23 @@
 	color: white;
 	font-size: 30px;
 	z-index: 10;
+	
 }
 .cont-contents .course .course-cover img {
 	width: 100%;
-	
 	position: absolute;
 	object-fit: cover;
 	top: 0;
 	left: 0;
-	opacity: 0.5;
 }
-
+.course-cover img:hover {
+	transform: scale(0.8);
+}
 .cont-contents .course .course-list {
 	flex-grow: 1;
 	padding: 20px;
 	background-color: white;
+	border: 3px solid #bd8fe8;
 }
 .cont-contents .course:nth-child(2n) {
 	flex-direction: row-reverse;
